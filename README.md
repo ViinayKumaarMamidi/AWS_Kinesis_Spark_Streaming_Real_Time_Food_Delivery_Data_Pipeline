@@ -401,9 +401,5 @@ Final tips
 - Automate infra with Terraform or CloudFormation for repeatable deployments.
 - Version your event schema and handle schema evolution carefully in Spark code.
 
-If you'd like, I can:
-- Generate Terraform or CloudFormation templates for the Kinesis + S3 + IAM pieces.
-- Create a ready-to-run repository layout (producer, consumer, scripts, sample data).
-- Provide an EMR Step JSON to submit the Spark job automatically.
 
 Which of the above would you like me to produce next?
