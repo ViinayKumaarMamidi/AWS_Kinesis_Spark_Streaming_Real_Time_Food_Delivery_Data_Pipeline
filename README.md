@@ -395,11 +395,3 @@ aws kinesis describe-stream --stream-name food-delivery-stream --region us-east-
 aws kinesis put-record --stream-name food-delivery-stream --partition-key key1 --data "$(echo -n '{"event_type":"order_created","order_id":"1"}' | base64 -w 0)"
 ```
 
-Final tips
-- Start small: a single shard + small EMR cluster to validate functional correctness.
-- Add observability early: send logs and metrics to CloudWatch, add dashboards.
-- Automate infra with Terraform or CloudFormation for repeatable deployments.
-- Version your event schema and handle schema evolution carefully in Spark code.
-
-
-Which of the above would you like me to produce next?
